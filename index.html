@@ -23,7 +23,7 @@
     <!-- ===== Header ===== -->
     <header id="header" class="m-header">
         <nav class="nav m-container">
-            <a href="#" class="nav__logo">Solar panels</a>
+            <a href="#" class="nav__logo">Amera solar</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -43,15 +43,16 @@
 
     <main class="m-main">
         <!-- ======== Home =========== -->
-        <section class="home" id="home">
+        <section class="home section" id="home">
             <div class="home__container m-container m-grid">
                 <div class="home__img">
                     <img src="images/home.png" alt="home">
                 </div>
                 <div class="home__data">
-                    <h1 class="home__title">Start saving on electricity today</h1>
-                    <p class="home__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, nostrum?
-                    </p>
+                    <h1 class="home__title">Turn sunlight into energy</h1>
+                    <p class="home__description">
+                        Our solar panels are low-profile and durable — quietly converting sunlight to energy for decades
+                        to come</p>
                     <a href="#" class="button">See panels</a>
                 </div>
             </div>
@@ -61,9 +62,16 @@
         <section class="panels section" id="panels">
             <div class="panels__container m-container m-grid">
                 <div class="panels__data">
-                    <h2 class="section-title-center">Lorem ipsum dolor sit.</h2>
-                    <p class="panels__description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                    <a href="#" class="button">See panels</a>
+                    <h2 class="section-title-center">Pay less</h2>
+                    <div class="panels__content">
+                        <p class="panels__description">Power your home and reduce dependence on the
+                            grid. Purchase solar at the lowest price and take control of your monthly electricity bill. Learn more about your potential
+                            savings in our Estimation Room</p>
+                        <a href="#" class="button">Estimation Room</a>
+                    </div>
+                    <div class="panels__img">
+                        <img src="images/save.png" alt="save money">
+                    </div>
                 </div>
             </div>
         </section>
@@ -71,41 +79,93 @@
         <!-- ======== Installation =========== -->
         <section class="installation section" id="installation">
             <div class="m-container">
-                <h2 class="section-title">Lorem ipsum dolor sit amet consectetur.</h2>
-                
+                <h2 class="section-title">How we install panels</h2>
+
                 <div class="installation__container m-grid">
                     <div class="installation__data">
                         <img src="images/installation1.png" alt="panel installation" class="installation__img">
-                        <h3 class="installation__title">Lorem, ipsum dolor.</h3>
-                        <a href="#" class="button button-link">Go shopping</a>
+                        <h3 class="installation__title">Roof installation</h3>
+                        <a href="#" class="button button-link">See panels</a>
                     </div>
 
                     <div class="installation__data">
                         <img src="images/installation2.jpg" alt="panel installation" class="installation__img">
-                        <h3 class="installation__title">Lorem, ipsum dolor.</h3>
-                        <a href="#" class="button button-link">Go shopping</a>
+                        <h3 class="installation__title">Field installation</h3>
+                        <a href="#" class="button button-link">See panels</a>
                     </div>
 
                     <div class="installation__data">
                         <img src="images/installation3.png" alt="panel installation" class="installation__img">
-                        <h3 class="installation__title">Lorem, ipsum dolor.</h3>
-                        <a href="#" class="button button-link">Go shopping</a>
+                        <h3 class="installation__title">Roof installation</h3>
+                        <a href="#" class="button button-link">See panels</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ======== About Us =========== -->
-        <section class="about-us section m-container" id="about-us">
+        <!-- Appointment -->
+        <section class="appointment section" id="appointment">
+            <div class="appointment__container m-container">
+                <h2 class="appointment__title section-title">
+                    Schedule appointment
+                </h2>
 
+                <p class="appointment__description">Schedule a appointment with our exprerts today and get a
+                    <strong>25%</strong> off the first <strong>5</strong> panels
+                </p>
+
+                <form action="/schedule" id="appointment__form">
+                    <input type="text" name="house-address" id="house-address" placeholder="House address"
+                        class="appointment__input">
+                    <a href="#schedule" class="button appointment__button" type="submit">Schedule</a>
+                </form>
+
+                <div class="appointment__img">
+                    <img src="images/appointment.png" alt="appointment calendar">
+                </div>
+            </div>
         </section>
+
     </main>
 
-    <footer class="footer section">
+    <!-- ======== Footer / About Us =========== -->
+    <footer class="footer section about-us" id="about-us">
+        <div class="footer__container m-container">
+            <div class="footer__content">
+                <h3 class="footer__title"><a href="#">Solar Gift</a></h2>
+                    <p class="footer__subtitle">Buy a gift for your friends and family</p>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title"><a href="#">Our Services</a></h2>
 
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Discounts</a></li>
+                        <li><a href="#" class="footer__link">Shipping</a></li>
+                    </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title"><a href="#">Our Company</a></h2>
+
+                    <ul>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">About us</a></li>
+                        <li><a href="#" class="footer__link">Our mission</a></li>
+                    </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h2>
+
+                <ul>
+                    <li><a href="#" class="footer__social"><i class="bx bxl-facebook-circle"></i></a></li>
+                    <li><a href="#" class="footer__social"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="#" class="footer__social"><i class="bx bxl-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
-    <!-- =========== SCRIPTS =========== -->
+    <!-- =========== Scripts =========== -->
     <script src="scripts/main.js"></script>
 </body>
 
