@@ -137,6 +137,20 @@ a {
   align-items: center;
 }
 
+// Logo
+.logo__img {
+  width: 32px;
+  vertical-align: middle;
+}
+
+.logo__text {
+  vertical-align: bottom;
+  display: inline-block;
+  transform: translateY(5px);
+}
+
+
+
 @media screen and (max-width: 768px) {
     .nav__menu {
         max-height: 0;
@@ -426,6 +440,12 @@ a {
   }
 
   // ====== Navigation =====
+
+  // Logo
+  .logo__img {
+    width: 40px;
+  }
+
   .nav {
     height: calc(#{$header-height} + 1rem);
   }

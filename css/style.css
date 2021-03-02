@@ -89,6 +89,18 @@ a {
           align-items: center;
 }
 
+.logo__img {
+  width: 32px;
+  vertical-align: middle;
+}
+
+.logo__text {
+  vertical-align: bottom;
+  display: inline-block;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
 @media screen and (max-width: 768px) {
   .nav__menu {
     max-height: 0;
@@ -386,6 +398,9 @@ a {
 @media screen and (min-width: 768px) {
   .section-title, .section-title-center {
     font-size: 2rem;
+  }
+  .logo__img {
+    width: 40px;
   }
   .nav {
     height: calc(3rem + 1rem);
